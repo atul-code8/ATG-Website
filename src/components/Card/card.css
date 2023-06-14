@@ -1,0 +1,182 @@
+.card {
+  position: relative;
+  width: 692px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.card-image {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-content {
+    position: relative;
+    padding: 20px 20px 0 20px;
+}
+
+.subHeading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 134.55%;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.paragraph {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 134.17%;
+  color: #5c5c5c;
+}
+
+.threeDot {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 36px;
+  height: 32px;
+
+  border-radius: 4px;
+  cursor: pointer;
+}
+.threeDot img {
+  margin-left: 8px;
+  margin-top: 13px;
+}
+.menu {
+  position: absolute;
+  width: 160px;
+  height: 102px;
+  top: 90px;
+  right: 16px;
+  padding: 7px 0 0 12px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16), 0px 0px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.menu p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+.options {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.views {
+  width: 95px;
+  height: 18px;
+  display: flex;
+  gap: 8.75px;
+  margin-left: 234px;
+}
+.views img {
+  width: 18px;
+  height: 18px;
+}
+.views p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+
+  color: #525252;
+}
+
+.share {
+  width: 42px;
+  height: 36px;
+  background: #edeef0;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: 492px;
+    }
+    .views {
+        margin-left: 40px;
+    }
+    .user-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+  .subHeading {
+    font-size: 14px;
+    line-height: 18.2px;
+    margin-bottom: 6px;
+  }
+  .heading {
+    font-size: 16px;
+    line-height: 20.8px;
+    margin-bottom: 10px;
+  }
+  .paragraph {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+  .options {
+    margin-top: 21px;
+  }
+  .user h2 {
+    font-size: 13px;
+    line-height: 16.9px;
+  }
+  .user img {
+    width: 37px;
+    height: 37px;
+    object-fit: contain;
+  }
+  .user {
+    display: flex;
+    align-items: start;
+  }
+  .views {
+    position: absolute;
+    bottom: 0;
+    left: 28px;
+  }
+  .views p {
+    font-size: 12px;
+    line-height: 15.6px;
+  }
+  .views img {
+    display: none;
+  }
+
+}

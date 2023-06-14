@@ -1,0 +1,306 @@
+.gallery-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.tabs {
+  position: absolute;
+  left: 200px;
+  top: 47px;
+  display: flex;
+  gap: 20px;
+  color: #8a8a8a;
+}
+.focus-line {
+  position: absolute;
+  left: 0;
+  top: 41px;
+  width: 93px;
+  height: 0px;
+  border: 1px solid #000000;
+  z-index: 1;
+}
+.button1 {
+  position: absolute;
+  width: 133px;
+  height: 36px;
+  right: 349px;
+  top: 40px;
+
+  background: #edeef0;
+  border-radius: 4px;
+}
+.button1 p {
+  margin: 8px 12px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.button1 img {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+}
+
+.button2 {
+  position: absolute;
+  width: 125px;
+  height: 36px;
+  right: 200px;
+  top: 40px;
+
+  background: #2f6ce5;
+  border-radius: 4px;
+}
+
+.button2 img {
+  position: absolute;
+  left: 10px;
+  top: 11.58px;
+}
+
+.button2 p {
+  margin: 8px 0 0 38px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.line {
+  position: absolute;
+  height: 0px;
+  left: 200px;
+  right: 200px;
+  top: 88px;
+  border: 1px solid #e0e0e0;
+}
+
+.location {
+  position: absolute;
+  top: 144px;
+  right: 200px;
+  width: 243px;
+  border-bottom: 0.4px solid #b8b8b8;
+  padding-bottom: 5.5px;
+  display: flex;
+}
+
+.location img {
+  object-fit: contain;
+}
+.location input {
+  border: 0;
+  outline: 0;
+  margin-left: 7.75px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000000;
+  background: #ffffff;
+  padding: 5px 0px 5px 12px;
+  width: fit-content;
+  height: auto;
+}
+.location .edit {
+  margin-left: 6.5px;
+}
+
+.message {
+  position: absolute;
+  top: 61px;
+  left: 0;
+}
+.message img {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  opacity: 0.5;
+}
+.message p {
+  width: 220px;
+  height: 32px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.5;
+  margin-left: 23px;
+}
+
+.reccomend-location {
+  position: absolute;
+  top: 291px;
+  right: 200px;
+  width: 243px;
+}
+
+.reccomend-location h1 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-align: center;
+}
+
+.reccomend-location .more {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #2f6ce5;
+  margin-top: 64px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.person img {
+  width: 36px;
+  height: 36px;
+}
+.person p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.profiles button {
+  width: 60px;
+  height: 24px;
+  background: #edeef0;
+  border-radius: 14px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+.profiles button.active {
+  width: 73px;
+  height: 24px;
+  background: #000000;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.posts {
+  position: absolute;
+  top: 118px;
+  left: 200px;
+}
+
+@media (max-width: 1400px) {
+  .tabs {
+    left: 100px;
+  }
+  .button2 {
+    right: 100px;
+  }
+  .button1 {
+    right: 249px;
+  }
+  .location {
+    right: 100px;
+  }
+  .reccomend-location {
+    right: 100px;
+  }
+  .line {
+    left: 100px;
+    right: 100px;
+  }
+  .posts {
+    left: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tabs {
+    left: 50px;
+  }
+  .posts {
+    left: 50px;
+  }
+  .line {
+    left: 50px;
+  }
+}
+
+@media (max-width: 978px) {
+  .button2 {
+    right: 50px;
+  }
+  .button1 {
+    right: 199px;
+  }
+  .line {
+    right: 50px;
+  }
+  .location {
+    right: 50px;
+  }
+  .reccomend-location {
+    right: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tabs {
+    display: none;
+  }
+  .button1 {
+    top: 14px;
+    right: 16px;
+    width: 106px;
+    height: 32px;
+  }
+  .button1 p {
+    font-size: 10px;
+  }
+  .button2 img {
+    display: none;
+  }
+  .button2 p {
+    margin: 6px 8px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .button2 {
+    top: -224px;
+    right: 16px;
+    width: 76px;
+    height: 28px;
+    border: 0.8px solid #ffffff;
+    background-color: transparent;
+  }
+  .line {
+    display: none;
+  }
+  .posts {
+    left: 0;
+    top: 66px;
+    padding: 0.25rem;
+  }
+  .location {
+    display: none;
+  }
+  .reccomend-location {
+    display: none;
+  }
+}

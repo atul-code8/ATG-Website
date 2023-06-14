@@ -1,0 +1,199 @@
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000000;
+  opacity: 0.65;
+  z-index: 10;
+}
+.cancle {
+  position: absolute;
+  top: 78px;
+  left: 75%;
+  width: 23.33px;
+  height: 23.33px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+}
+.prompt {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 17px 0;
+  text-align: center;
+  background: #effff4;
+  border-radius: 8px 8px 0px 0px;
+  color: #008a45;
+}
+.joinGroup-card, .signin-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 736px;
+  z-index: 100;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+/* .joinGroup-card .prompt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  width: 736px;
+  height: 50px;
+  color: #008a45;
+  background: #effff4;
+  padding-top: 17px;
+  border-radius: 8px 8px 0px 0px;
+} */
+.container {
+  display: flex;
+}
+
+.left {
+  position: relative;
+  width: 320px;
+  height: 403px;
+  margin: 24px 0px 36px 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+input {
+  width: 320px;
+  height: 46px;
+  background: #f7f8fa;
+  border: 1px solid #d9d9db;
+  padding: 15px 12px;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #8a8a8a;
+}
+form img {
+  position: absolute;
+  object-fit: contain;
+  top: 166.38px;
+  right: 17.38px;
+}
+button {
+  width: 320px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  background: #2f6ce5;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  margin-top: 19px;
+}
+.signUpwith {
+  margin-top: 24px;
+  width: 320;
+}
+.facebook,
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border: 0.6px solid #d9d9db;
+  border-radius: 2px;
+  height: 38px;
+}
+.facebook img,
+.google img {
+  object-fit: contain;
+}
+
+.facebook p,
+.google p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+}
+.google {
+  margin-top: 8px;
+}
+.right {
+  width: 320px;
+  height: 403px;
+  margin: 24px 36px 36px 24px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.right p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #3d3d3d;
+  text-align: right;
+}
+
+.right img {
+  width: 258.16px;
+  height: 260.84px;
+  margin-top: 51.4px;
+  margin-left: 30.8px;
+}
+
+.right .term {
+  margin-top: 50.76px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.8;
+}
+
+/* Sign in page */
+
+/* .signin-card {
+  position: absolute;
+  width: 736px;
+  height: 457px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  z-index: 100;
+} */
+.forgot {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #000000;
+  text-align: center;
+  letter-spacing: -0.008em;
+  margin-top: 23px;
+}
